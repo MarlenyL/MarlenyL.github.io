@@ -90,7 +90,8 @@ header {
 }
 .area-days{
     width: 80%;
-    margin-top: 7.5em;;
+    margin-top: 7.5em;
+    margin-bottom: 2em;
     color: white;
     font-family: 'Indie Flower', cursive;
 }
@@ -101,12 +102,18 @@ h2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2em;
+    row-gap: 2em;
+    margin-bottom: 2em;
 }
 .content p{
     font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+.day p{
+    font-size: 0.8em;
 }
 .content img{
-    height: 13.5em;
-    width: auto;
+    height: auto;
+    width: 100%;
     text-align: center;
 }
