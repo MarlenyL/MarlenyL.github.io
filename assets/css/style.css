@@ -103,7 +103,7 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2em;
     row-gap: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .content p{
     font-size: 0.8em;
