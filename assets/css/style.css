@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kalam:400,700&display=swap');
+:root{
+    font-size: calc(0.5em + 1vw);
+}
+
+*, ::before, ::after
+{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vw);
+
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000a12;/* #cfd8dc;*/
+    height: 100vh;
+}
+h1{
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+p{
+    margin: 0;
+    text-align: justify;
+}
+header {
+    /*background-color: #102027;*/
+    width: 80%;
+    height: 7em;
+    color: white;
+    position: fixed;
+    top:0px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b42da20c-fcd5-4c3f-9b76-42d2f9dd6fff/daihraz-01159dfc-53df-4ec9-963b-ea083c9a8760.jpg/v1/fill/w_1024,h_576,q_75,strp/matrix_blue_wallpaper_by_nitramx_daihraz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvYjQyZGEyMGMtZmNkNS00YzNmLTliNzYtNDJkMmY5ZGQ2ZmZmXC9kYWlocmF6LTAxMTU5ZGZjLTUzZGYtNGVjOS05NjNiLWVhMDgzYzlhODc2MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ykH0eJxyMMdHBjI92r2QYPWPZBRVDoiKfqfSNJTLv-E);
+    box-shadow: 3px 2px 10px white;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 83.7%;
+}
+.perfil{
+    width: 25%;
+    margin: 1em 0 1em 0;
+    align-self: center;
+    text-align: center;
+}
+.perfil img{
+    width: auto;
+    height: 3.8em;
+    border-radius: 50%;
+    text-align: center;
+}
+.perfil p{
+    font-size: 0.8em;
+    text-align: center;
+}
+.title{
+    vertical-align: middle;;
+    width: 75%;
+    align-self: center;
+    margin-left: 1em;
+}
+
+.menu{
+    width: 100%;
+    height: 15%;
+    background: #62727b;
+}
+
+.options {
+    color: white;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.menu-item{
+    width: 16.6666%;
+    text-align:center;
+}
+.area-days{
+    width: 80%;
+    margin-top: 7.5em;;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    width: 100%;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+}
+.content p{
+    font-size: 0.8em;
+}
+.content img{
+    height: 13.5em;
+    width: auto;
+    text-align: center;
+}
